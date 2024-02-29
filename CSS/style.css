@@ -54,7 +54,7 @@ tr:hover{
     padding: 10px;
     color: brown;
 } */
-ul, li, a.item:link, a.item:visited, a.item:active {
+a.item:link, a.item:visited, a.item:active {
     text-decoration: none; /*menghilangkan garis pada link*/
     list-style: none; /* menghilangkan titik pada list */
     display: block;/* mendisplay a sebagai block */

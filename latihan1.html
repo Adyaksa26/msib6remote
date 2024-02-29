@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pertama</title>
+
+    <!-- <style>
+        /* ini adalah contoh selector tag dan internal CSS */
+        p{
+            color: blueviolet;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12pt;
+        }
+    </style> -->
+    <!-- contoh pemanggilan css eksternal -->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body bgcolor="lightblue">
+
+    <!--h1 adalah contoh tag-->
+    <!--align dan bgcolor adalah salah satu attribute-->
+    <!-- <table align="center" border="0" cellpadding="20" cellspacing="0" width="100%">
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Link</legend>
+                    <ul>
+                        <li><a href="latihan1.html" target="main">Home</a></li>
+                        <li><a href="latihan2.html">Menu</a></li>
+                        <li><a href="latihan3.html" target="main">Form</a></li>
+                    </ul>
+                </fieldset>
+            </td>
+        </tr>
+    </table> -->
+    <h1 align="center">
+        <marquee behavior="" direction="right" scrolldelay="100">
+        <!--dibahwah ini adalah contoh elemen-->
+        Welcome to my homepage
+    </marquee>
+    </h1>
+    <p align="right" id="atas"><a href="#bawah">Kebawah</a></p>
+    <p align="center">
+        <!-- <embed src="./sound/Oasis - Don't Look Back In Anger (Official Video) (128 kbps).mp3" type=""> -->
+        <!-- <audio controls src="./sound/Oasis - Don't Look Back In Anger (Official Video) (128 kbps).mp3"></audio> -->
+        <!-- kalau px itu ukurannya fix sesuai dengan fotonya, kalau pake persenan itu bisa responsive, jadi ketika zoom in zoom out itu ngikutin containernya -->
+        <img src="./img/gambar.jpg" alt="gambar profil" width="10%" align="left" hspace="10">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" 
+        alt="" width="20%" align="left" hspace="10"> -->
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere officia 
+        illum fuga recusandae dolores vero eaque cum, accusamus laudantium, 
+        qui laboriosam quis dignissimos. Culpa illum, tenetur aperiam amet impedit molestiae.
+    </p>
+    <p style="text-align: center; color: brown;"> <!--berikut adalah css inline-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat suscipit error soluta 
+        accusamus commodi reprehenderit, quaerat rerum cum saepe deleniti dolor! Ex suscipit 
+        inventore repellendus accusamus, iusto in similique esse!
+    </p>
+    <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit quas ea tempore 
+        qui magni adipisci accusamus placeat perferendis assumenda, totam eaque minima ipsum,
+         doloremque, quisquam delectus nobis aliquid voluptas?
+    </p>
+
+    <fieldset>
+        <legend>
+            <font size="5" color="yellow" face="times new roman">
+                ini adalah tentang diri saya
+            </font>
+        </legend>
+    <ol type="A">
+        <li>Olahraga</li>
+        <ul type="square">
+            <li id="paragraph">sepakbola</li>
+            <ol type="a">
+                <li>pria</li>
+                <li>wanita</li>
+            </ol>
+            <li>bulu tangkis</li>
+            <li>pingpong</li>
+            <li>running</li>
+        </ul>
+        <li>Pendidikan</li>
+        <ul type="disc">
+            <li>sd</li>
+            <li>smp</li>
+            <li>sma</li>
+        </ul>
+        <!-- target untuk mengarah ke slide selanjutnya dengan tab baru -->
+        <a href="latihan2.html" target="_blank">
+        <li>Makanan Favorit</li>
+        </a>
+        <ul>
+            <li>rendang</li>
+            <li>geprek</li>
+            <li>ayam tiren</li>
+        </ul>
+    </ol>
+</fieldset>
+
+<p align="right" id="bawah"><a href="#atas">Atas</a></p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 JavaScript</title>
+</head>
+<body>
+    <script>
+        let pegawai = "Ridwan";
+        let jabatan = "Manager";
+        let status = "Menikah";
+
+    if (jabatan == "Manager") {
+      gajiPokok = 15000000;
+    } else if (jabatan == "Asisten Manager") {
+      gajiPokok = 10000000;
+    } else if (jabatan == "Staff") {
+      gajiPokok = 5000000;
+    } else {
+      gajiPokok = 0;
+    }
+    
+    let tunjanganJabatan = 0.15 * gajiPokok;
+    let bpjs = 0.1 * gajiPokok;
+    let tunjanganKeluarga = status == "Menikah" ? 0.2 * gajiPokok:0 ;
+    let totalGaji = gajiPokok + tunjanganjabatan + bpjs + tunjanganKeluarga ;
+    
+</script>
+    <table border="1" align="center" cellpadding="10" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Nama Pegawai</th>
+                <th>Jabatan</th>
+                <th>Status</th>
+                <th>Gaji Pokok</th>
+                <th>Tunjangan Jabatan</th>
+                <th>BPJS</th>
+                <th>Tunjangan Keluarga</th>
+                <th>Total Gaji</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

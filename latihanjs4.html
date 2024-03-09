@@ -1,0 +1,38 @@
+<script>
+    //variable
+    let pelanggan = "fortes ";
+    let produk = "sepatu";
+
+    // baju => 10 jt, Celana => 6 jt, sepatu => 3 juta
+
+    // if(produk == "Baju"){
+    //     harsat = 10000000;
+    // }
+    // else if (produk == "Celana"){
+    //     harsat = 6000000;
+    // }
+    // else if (produk == "Sepatu"){
+    //     harsat = 3000000;
+    // }
+    // else {
+    //     harsat = 0;
+    // }
+    let harsat = 0;
+    switch(produk){
+        case 'Baju': harsat = 10000000; break;
+        case 'Celana': harsat = 6000000; break;
+        case 'Sepatu': harsat = 3000000; break;
+        default: harsat = 0;
+    }
+    let jmlBeli = 15;
+    let bruto = harsat + jmlBeli;
+    //ternary
+    let diskon = (produk == 'Sepatu') ? 0.1 * bruto : 0;
+
+    document.write("Data Pembelian"+
+    "<br> Pelanggan : " + pelanggan +
+    "<br> Produk Pilihan : " + produk +
+    "<br> Harga Satuan : " + harsat +
+    "<br> Harga Kotor (bruto) : "+ bruto +
+    "<br> Diskon : " + diskon)
+</script>
